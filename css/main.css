@@ -13,6 +13,8 @@ body {
 	font-size:1.1em;
 	margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
+  background: rgba(255,255,255,1.00);
+	
 }
 
 section {
@@ -31,7 +33,16 @@ section {
 }
 
 .logo {
-	margin:1em;
+	margin:0.5em;
+	
+}
+
+.gradient{
+	background: rgba(255,255,255,1.00);
+	background:-webkit-repeating-linear-gradient(-45deg, rgba(3,78,162,0.2), rgba(3,78,162,0.1) 1px, white 2px, white 10px);
+	background:-o-repeating-linear-gradient(-45deg, rgba(3,78,162,0.2), rgba(3,78,162,0.1) 1px, white 2px, white 10px);
+	background:-moz-repeating-linear-gradient(-45deg, rgba(3,78,162,0.2), rgba(3,78,162,0.1) 1px, white 2px, white 10px);
+	background:repeating-linear-gradient(-45deg, rgba(3,78,162,0.2), rgba(3,78,162,0.1) 1px, white 2px, white 10px);
 	
 }
 
@@ -62,7 +73,7 @@ p {
 
 
 
-#header{
+header{
 	background: rgba(255,255,255,1.00);
 	margin:0 auto;
 	padding:0.5em;
@@ -123,20 +134,23 @@ article{
 	
 }
 
-article:nth-child(odd) {
+article:nth-child(even) {
 	background:rgba(193,193,193,0.2);
 	
 }
 
 article img {
-	margin:0.5em;
+	margin:0.5em auto;
 	-webkit-box-shadow: 0px 0px 6px -3px #231f20;
 	-moz-box-shadow:0px 0px 6px -3px #231f20;
 	box-shadow: 0px 0px 6px -3px #231f20;
 	padding:3px;
    border:5px solid #fff;
    background-color:#fff;
+   box-sizing:border-box;
    	max-width:100%;
+	
+	
 	
 }
 
@@ -190,7 +204,13 @@ footer{
 	border-top:4px #ed1c24 solid;
 	margin-top:20px;
 	height:4em;
+	color:#034ea2;
 	
+	
+}
+
+footer p {
+	margin:1em;
 	
 }
 
@@ -223,5 +243,12 @@ footer{
 		font-size:1.2em;
 		
 	}
+	
+	article > h3 {
+		/*text-align:center;*/
+		font-size:1em;
+		
+	}
+	
 	
 }
