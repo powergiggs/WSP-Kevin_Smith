@@ -1,0 +1,310 @@
+/* Project CSS 
+============================================================
+============================================================*/
+
+
+/*General Content
+================================================*/
+
+
+body {
+	max-width:100%;
+	background: #FFF;
+	font-size:1.1em;
+	margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  background: rgba(255,255,255,1.00);
+	
+}
+
+section {
+		margin:10px auto;
+		width:100%;
+		max-width:960px;
+		position:relative;
+		box-sizing:border-box;
+		background:#fff;
+		border:rgba(237,28,36,0.85) 0.8em solid;
+		border-radius:1.1em;
+		margin-bottom:1em;
+	
+		
+	
+}
+
+.logo {
+	margin:0.5em;
+	
+}
+
+.gradient{
+	background: rgba(255,255,255,1.00);
+	background:-webkit-repeating-linear-gradient(-45deg, rgba(3,78,162,0.2), rgba(3,78,162,0.1) 1px, white 2px, white 5px);
+	background:-o-repeating-linear-gradient(-45deg, rgba(3,78,162,0.2), rgba(3,78,162,0.1) 1px, white 2px, white 5px);
+	background:-moz-repeating-linear-gradient(-45deg, rgba(3,78,162,0.2), rgba(3,78,162,0.1) 1px, white 2px, white 5px);
+	background:repeating-linear-gradient(-45deg, rgba(3,78,162,0.2), rgba(3,78,162,0.1) 1px, white 2px, white 5px);
+	
+}
+
+
+
+
+/*Typography
+================================================*/
+
+h1, h2, h3, h4, h5 {
+	
+	font-family: 'Nunito', sans-serif;
+	/*font-family: 'Playfair Display', serif;*/
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1em;
+	/*margin: 0 auto;*/
+	/*text-shadow: 2px 2px 3px #0FF494;*/
+	color: #ED1C24;
+}
+
+p {
+	 font-family: 'Ubuntu', sans-serif;
+	 font-size:1em;
+	
+	
+	}
+
+
+
+header{
+	background: rgba(255,255,255,1.00);
+	margin:0 auto;
+	padding:0.5em;
+	width:100%;
+	max-width:100%;
+	text-align:center;	
+	border-bottom:4px #ed1c24 solid;
+	margin-bottom:20px;
+	
+	
+	
+	
+}
+
+
+/* ABOUT ============================== */
+
+
+#about{
+	background:url(../images/about_bg.jpg) no-repeat ;
+	background-size:cover;
+	margin:0 auto;
+	height:430px;
+	overflow:scroll;
+	
+
+}
+#about img {
+	max-width:100%;
+	
+}
+
+
+#about h1{
+	margin-top:3em;
+	padding:0.5em;
+	text-align:center;
+	font-size:2em;
+	text-transform:uppercase;
+	text-shadow:2px 2px 3px #F9F5F6 ;
+	/*color:#034ea2;*/
+	
+}
+
+#about p {
+	background:rgba(255,255,255,0.85);
+	padding:1.5em;
+	line-height:1.3em;
+	
+	
+	
+	
+	
+}
+
+
+/* COMPONENTS ============================== */
+article{
+	margin:2em;
+	padding:1em;
+	border-bottom:#ED1C24 1px dotted;
+	
+}
+
+article:nth-child(even) {
+	background:rgba(253,228,229,0.2);
+	border-bottom:#034ea2 1px dotted;
+	
+}
+
+article img {
+	margin:0.5em auto;
+	-webkit-box-shadow: 0px 0px 6px -3px #231f20;
+	-moz-box-shadow:0px 0px 6px -3px #231f20;
+	box-shadow: 0px 0px 6px -3px #231f20;
+	padding:3px;
+   border:5px solid #fff;
+   background-color:#fff;
+   box-sizing:border-box;
+   	max-width:100%;
+	
+	
+	
+}
+
+article img:hover{
+	opacity:0.75;
+	
+}
+
+#blog h1 {
+	font-size:2em;
+	margin:1em;
+	text-align:center;
+	text-transform:uppercase;
+	color:#034ea2
+	
+	
+	
+}
+article h2{
+	font-size:1.5em;
+	margin:0.4em;
+	padding-bottom:1em;
+	text-transform:uppercase;
+	color:#034ea2;
+	
+}
+
+article h3{
+	font-size:1.2em;
+	margin:0.5em;
+}
+
+article p{
+	
+	margin:0.5em;
+	font-size:1em;
+	padding-bottom:1em;
+	
+}
+
+
+/*Buttons==============================*/
+.buttons{
+	background:#ff3333;
+	margin:0.5em;
+	display:block;
+	font-weight:600;
+	padding:1em;
+	border:none;
+	border-radius:2em;
+	-webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	transition: background 0.5s ease;
+	cursor:pointer;
+	
+
+	
+	
+	
+}
+
+.buttons a {
+	color:#fff;
+	text-transform:uppercase;
+	font-size:1.2em;
+	
+	
+	
+}
+
+.buttons:hover{
+	background:#0466d4;
+
+	
+	
+}
+
+
+
+/* FOOTER ============================== */
+
+footer{
+	background: rgba(255,255,255,1.00);
+	margin:0 auto;
+	padding:0.5em;
+	width:100%;
+	max-width:100%;
+	text-align:center;	
+	border-top:4px #ed1c24 solid;
+	margin-top:20px;
+	height:4em;
+	color:#034ea2;
+	
+	
+}
+
+footer p {
+	margin:1em;
+	
+}
+
+/*Media Queries
+================================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	
+}
+
+@media only screen and (max-width : 479px ){
+	
+	#blog h1 {
+		font-size:1.5em
+		
+	}
+	.copyRight{
+		font-size:0.85em;
+		
+	}
+	article > h2 {
+		text-align:center;
+		font-size:1.2em;
+		
+	}
+	
+	article > h3 {
+		/*text-align:center;*/
+		font-size:1em;
+		
+	}
+	
+	.buttons{
+		margin:0 auto;
+		font-size:0.7em;
+		
+	}
+	
+	.logo img{
+		width:70%;
+		
+		
+	}
+	
+	
+}
