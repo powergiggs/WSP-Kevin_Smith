@@ -1,0 +1,129 @@
+/* Component Stylesheet 
+============================================================
+============================================================*/
+body {
+	max-width:100%;
+	background: #FFF;
+	font-size:1em;
+	margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+/*clearfix===============*/
+
+section::after{
+	content:"";
+	display:table;
+	clear:both;
+	
+	
+}
+
+
+
+/* Porfolio Gallery===============*/
+
+#gallery img {
+	max-width:100%;
+	-webkit-box-shadow: 0px 0px 6px -3px #231f20;
+	-moz-box-shadow:0px 0px 6px -3px #231f20;
+	box-shadow: 0px 0px 6px -3px #231f20;
+	box-sizing:content-box;
+	
+   border:0.5em solid #fff;
+	
+}
+#gallery img:hover{
+	opacity:0.85;
+	
+}
+
+#gallery{
+	background:#141414;
+	width:100%;
+	max-width:900px;
+	margin:0 auto;
+	margin-top:2em;
+	margin-bottom:2em;
+	padding:1em;
+	
+}
+
+
+#gallery h1{
+	background:#212121;
+	color:#fff;
+	font-size:1.5em;
+	font-weight:900;
+	text-align:center;
+	text-transform:uppercase;
+	padding:0.2em;
+	
+	
+	
+}
+
+#gallery > .imgHolder {
+	float:left;
+	width:250px;
+	margin:1.1em;
+	display:block;
+	margin-top:1em;
+	
+	
+	
+	
+}
+
+#gallery figcaption {
+	margin-top:0.5em;
+	color:#fff;
+	text-align:left;
+	text-transform:capitalize;
+	
+}
+
+
+/*Media Queries=====================*/
+
+
+@media (max-width:899px){
+	#gallery > .imgHolder {
+		width:40%;
+		margin:2.1em;
+		
+	}
+	
+}
+	
+@media (max-width:723px){
+	#gallery > .imgHolder {
+		
+		width:40%;
+		margin:1.5em;
+		margin-bottom:1.5em;
+		
+		
+		
+	}
+	
+}
+	
+	
+	@media (max-width:528px){
+	#gallery > .imgHolder {
+		float:none;
+		width:85%;
+		margin:2em auto;
+		margin-bottom:1em;
+		display:block;
+		
+		
+	}
+	
+	
+}
+

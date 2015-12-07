@@ -2,3 +2,145 @@
 ============================================================
 ============================================================*/
 
+html { font-size: 62.5%; }
+body {
+	max-width:100%;
+	background: #fff;
+	font: 1.4em sans-serif;
+}
+
+
+
+/*Clearfix===============*/
+
+header::after{
+	content: "";
+  display: table;
+  clear: both;
+	
+}
+
+
+/* Header ==============*/
+
+header{
+	max-width:960px;
+	margin:0 auto;
+	padding: 1.5em 2em;;
+	display:block;
+	border-bottom: #e60000 solid 0.2em;
+	
+}
+
+
+.logo {
+	width: 233px; /*233px/ 960px   */
+	font-size:1.5em;
+	font-weight:bold;
+	text-transform:uppercase;
+	float: left;
+	padding: 0.5em 1.5em;; 
+	color:#e60000;
+	border: #e60000 2px solid;
+	text-align:center;
+	
+}
+
+/* NAVIGATION ======================================== */
+
+nav{
+	float:right;
+	
+}
+nav ul {
+	 display: inline-block; 
+
+}
+nav li {
+	float: left;
+	list-style-type: none;
+	position: relative;
+}
+
+nav li a {
+	display: block;
+	margin: 0.75rem 0;
+	padding: 0.25rem 1.5rem;
+	font-weight: 600;
+	color: #000000;
+	text-transform:uppercase;
+}
+nav > ul > li:not(:first-of-type) > a {
+	 border-left: dotted 1px #000000;
+	 }
+	 
+nav a:hover { 
+color: #e60000;
+ }
+
+
+nav li ul {
+	display: none;
+	position: absolute;
+	top: 100%; 
+	left: 0;
+	/*margin-left: 0.9rem;*/
+	padding: 1rem 0;
+	background:rgba(250, 0, 0, .85);
+	z-index:1;
+	text-align:center;
+	
+	
+}
+
+ nav li:hover ul { 
+ display: block;
+  }
+  
+  nav li ul a {
+	  width:100%;
+	  font-weight:normal;
+	  color:#fff;
+	  text-align:center;
+	  
+	  
+	 
+	}
+	
+	
+	
+	nav li ul a:hover{
+		 color:#ffff00;
+		 
+		 
+		 
+	 }
+	 
+	 
+	 
+	/*Media- Queries ========================*/
+	 
+	 @media (max-width: 479px) {
+		 
+		 .logo{
+			 width:100%;
+			 margin:0 auto;
+			 float:none;
+			 
+			 
+		 }
+		 
+		 nav {
+			 float:none;
+			 margin:0 auto;
+			 
+		 }
+		 
+		 nav li:hover ul { 
+				 display: none;
+  		}
+		 
+		 
+		 }
+  
+  

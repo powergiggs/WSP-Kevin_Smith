@@ -9,13 +9,15 @@
 
 body {
 	max-width:100%;
-	background: #FFF;
 	font-size:1.1em;
 	margin: 0 auto;
-  font-family: 'Ubuntu', sans-serif;
-  background: rgba(255,255,255,1.00);
+	font-family: 'Ubuntu', sans-serif;
+	background: rgba(255,255,255,1.00);
 	
 }
+
+
+
 
 section {
 		margin:10px auto;
@@ -140,7 +142,7 @@ article:nth-child(even) {
 	
 }
 
-article img {
+ .imgHeader{
 	margin:0.5em auto;
 	-webkit-box-shadow: 0px 0px 6px -3px #231f20;
 	-moz-box-shadow:0px 0px 6px -3px #231f20;
@@ -194,7 +196,8 @@ article p{
 
 /*Button=====================*/
 
-.buttons{
+.button{
+	max-width:190px;
 	display:block;
 	background:#ed1c24;
 	text-decoration:none;
@@ -204,22 +207,23 @@ article p{
 	border-radius:2em;
 	color:#fff;
 	font-size:1.1em;
-	cursor:pointer;
+	/*cursor:pointer;*/
 	-webkit-transition:background 0.5s ease;
 	-moz-transition:background 0.5s ease;
 	-o-transition:background 0.5s ease;
 	transition:background 0.5s ease;
+	text-align:center;
 	
 	
 	
 }
 
-.buttons > a {
+.button > a {
 	color:#fff;
 	
 }
 
-.buttons:hover{
+.button:hover{
 	background:#0473ef;
 	
 }
@@ -283,7 +287,7 @@ footer p {
 		
 	}
 	
-	 .buttons{
+	 .button{
 		 margin:0 auto;
 		 font-size:1em;
 		 
