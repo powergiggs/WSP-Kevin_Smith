@@ -45,7 +45,11 @@ body {
 	
 }
 
+<<<<<<< HEAD
 .ctaleft{
+=======
+.contentleft{
+>>>>>>> master
 	margin-left: 3em;
 	
 	float:left;
@@ -55,7 +59,11 @@ body {
 	
 }
 
+<<<<<<< HEAD
 .ctaleft h1{
+=======
+h1{
+>>>>>>> master
 	color:#0055a7;
 	font-family: 'Nunito', sans-serif;
 	font-size:1.8em;
@@ -65,14 +73,22 @@ body {
 	
 }
 
+<<<<<<< HEAD
 .ctaleft h2{
+=======
+ h2{
+>>>>>>> master
 	color:#6cb7ff;
 	font-family: 'Nunito', sans-serif;
 	text-transform:uppercase;
 	font-size:1.1em;
 }
 
+<<<<<<< HEAD
 .ctaleft p{
+=======
+ p{
+>>>>>>> master
 	color:#002d59;
 	font-size:1.2em;
 	text-transform:capitalize;
@@ -134,7 +150,11 @@ body {
 
 
 @media (max-width:841px){
+<<<<<<< HEAD
 	.ctaleft {
+=======
+	.contentleft {
+>>>>>>> master
 		float:none;
 		margin:0 auto;
 		

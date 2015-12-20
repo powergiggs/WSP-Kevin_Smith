@@ -3,7 +3,11 @@
 ============================================================*/
 body {
 	max-width:100%;
+<<<<<<< HEAD
 	background: #FFF;
+=======
+	background: #363636;
+>>>>>>> master
 	font-size:1em;
 	margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
@@ -42,7 +46,11 @@ section::after{
 }
 
 #gallery{
+<<<<<<< HEAD
 	background:#141414;
+=======
+	background:#363636;
+>>>>>>> master
 	width:100%;
 	max-width:900px;
 	margin:0 auto;
@@ -53,14 +61,19 @@ section::after{
 }
 
 
+<<<<<<< HEAD
 #gallery h1{
 	background:#212121;
+=======
+h1{
+>>>>>>> master
 	color:#fff;
 	font-size:1.5em;
 	font-weight:900;
 	text-align:center;
 	text-transform:uppercase;
 	padding:0.2em;
+<<<<<<< HEAD
 	
 	
 	
@@ -80,6 +93,33 @@ section::after{
 
 #gallery figcaption {
 	margin-top:0.5em;
+=======
+		
+}
+
+p{
+	color:#d1d1d1;
+	font-size:0.8em;
+	margin-top:1em;
+	font-weight:normal;
+	font-style:italic;
+	text-transform:capitalize;
+	
+}
+
+article {
+	
+	width:250px;
+	float:left;
+	margin:1.1em;
+	display:inline-block;
+	margin-top:1em;
+			
+}
+
+h2 {
+	margin-top:1em;
+>>>>>>> master
 	color:#fff;
 	text-align:left;
 	text-transform:capitalize;
