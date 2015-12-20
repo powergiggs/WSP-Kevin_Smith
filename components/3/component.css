@@ -2,3 +2,162 @@
 ============================================================
 ============================================================*/
 
+
+body {
+	max-width:100%;
+	background: #FFF;
+	font-size:1em;
+	margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+/*clearfix===============*/
+
+#cta::after{
+	content:"";
+	display:table;
+	clear:both;
+	
+	
+}
+
+
+
+
+/*CTA=====================*/
+
+#cta{
+	width:100%;
+	max-width:900px;
+	background: #f6faff;
+	background:-webkit-linear-gradient(to top, rgba(246,250,255,0), rgba(246,250,255,1));
+	background:-moz-linear-gradient(to top, rgba(246,250,255,0), rgba(246,250,255,1));
+	background:-o-linear-gradient(to top, rgba(246,250,255,0), rgba(246,250,255,1));
+	background:linear-gradient(to top, rgba(246,250,255,0), rgba(246,250,255,1));
+	margin:3em auto;
+	box-sizing:border-box;
+	border:#1ec8ff 0.1em solid;
+	border-radius:2em 2em 0 0;
+	padding:1em;
+	
+}
+
+.contentleft{
+	margin-left: 3em;
+	
+	float:left;
+	width:100%;
+	max-width:350px;
+	text-align:center;
+	
+}
+
+h1{
+	color:#0055a7;
+	font-family: 'Nunito', sans-serif;
+	font-size:1.8em;
+	font-weight:900;
+	text-transform:uppercase;
+	text-align:center;
+	
+}
+
+ h2{
+	color:#6cb7ff;
+	font-family: 'Nunito', sans-serif;
+	text-transform:uppercase;
+	font-size:1.1em;
+}
+
+ p{
+	color:#002d59;
+	font-size:1.2em;
+	text-transform:capitalize;
+	
+	
+	
+}
+
+.bottles{
+	float:right;
+	width:100%;
+	max-width:450px;
+	padding:0.1em;
+	margin-top:2em;
+	
+	
+	
+	
+	
+}
+
+
+/*Button=============*/
+
+.button {
+
+	margin:0 auto;
+	text-align:center;
+	background:#00376c;
+	width:250px;
+	color:fff;
+	padding:0.2em;
+	cursor:pointer;
+	border-radius:1em;
+	border:#E0E0E0 solid 0.2em;
+	-webkit-transition:background 0.5s ease;
+	-moz-transition:background 0.5s ease;
+	-o-transition:background 0.5s ease;
+	transition:background 0.5s ease;
+
+	
+}
+
+.button a {
+	color:#fff;
+	font-size:2em;
+	text-transform:uppercase;
+	
+}
+
+.button:hover{
+	background:#0073e2;
+	
+	
+}
+
+
+/*Media Queries======================*/
+
+
+@media (max-width:841px){
+	.contentleft {
+		float:none;
+		margin:0 auto;
+		
+		
+		
+	}
+	
+	.bottles{
+		float:none;
+	
+		display:block;
+		margin:0 auto;
+		padding-top:2em;
+		
+		
+	
+				
+		
+	}
+	
+	
+	
+}
+
+
+
